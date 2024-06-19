@@ -1,0 +1,18 @@
+By Pradumna Pokley
+
+Documentation:
+
+This Python based tool is for user who maintains there password security this tool helps user to strengthen there password and generate new passwords.
+
+1. **Password Generation Function:** 
+   - `generate_password(length=12)`: This function generates a password of the specified length (default is 12 characters).
+   - It ensures that the password includes at least one uppercase letter, one lowercase letter, one digit, and one special character by repeatedly generating a password until it meets all criteria.
+   
+2. **User Choice Input:**
+   - The user is prompted to either create their own password or have one generated for them.
+   - Based on the user's choice, the appropriate action is taken.
+
+3. **Strength Assessment and Feedback:**
+   - If the user creates their own password, the password is assessed for strength and feedback is provided.
+   - If the password is generated, it is assessed, and the generated password is displayed along with the strength assessment and feedback.
+
